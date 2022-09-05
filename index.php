@@ -2,3 +2,7 @@
 
 
 ?>
+
+<?php $script = file_get_contents('javascriptFile.js');
+   echo "<script>".$script."</script>";
+?>
